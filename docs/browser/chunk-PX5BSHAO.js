@@ -1,0 +1,1 @@
+import{f as s,k as o,n as a,q as n,s as C,t as p}from"./chunk-ZI2MKYBU.js";import{c as l,d as c,e as m,g as f}from"./chunk-KCPGHQFV.js";function F(i,r,e){if(m(r))return[i[0]+e*(r[0]-i[0]),i[1]+e*(r[1]-i[1])];if(l(r))return s(i,r,e);if(c(r)){let t=a(i,r);return o(t,e)}if(f(r)){let t=n(i,r);return o(t,e)}let u=C(i,r);return p(u,e)}export{F as a};

@@ -1,0 +1,1 @@
+import{a as s}from"./chunk-QHZTIFKH.js";import{a as n,h as o}from"./chunk-OVKTUP2L.js";import{a as r}from"./chunk-DHQP3ANJ.js";var e=new WeakMap;function c(a){return!a.destroyed&&(e.has(a)||a.addHandles([n(()=>{let{parent:t}=a;return!!(t&&t instanceof s)&&(t.type==="catalog-dynamic-group"||c(t))},t=>e.set(a,t),o),r(()=>e.delete(a))]),e.get(a))}export{c as a};

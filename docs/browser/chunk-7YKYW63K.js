@@ -1,0 +1,1 @@
+import{ha as o}from"./chunk-MYRUHT64.js";import{a as n}from"./chunk-RMKGULDW.js";var r=new o;function f(t,e,u){return r.execute(t,e,u,null)}function l(t,e){return r.executeMany(new n(t),e,null).next()}function v(){return r.supportsCurves()}export{f as a,l as b,v as c};

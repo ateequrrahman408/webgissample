@@ -1,0 +1,1 @@
+import{d as a}from"./chunk-CIA4EAEY.js";import{a as s}from"./chunk-NEVXH6ZX.js";import{a as n}from"./chunk-6CGLQVPB.js";import{a as e,m as o,n as r}from"./chunk-F2EDSM27.js";function x(t,i,m,h){let{height:f,width:d}=h??p(t),u=Math.min(d/i,f/m)*a();return s(t,{maxDeviation:u})}function p(t){let i=n(e(),t);return{width:o(i),height:r(i)}}export{x as a};

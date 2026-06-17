@@ -1,0 +1,1 @@
+import{l as r,s,t as i,w as o}from"./chunk-LQ5B7N2H.js";var u=s(class extends i{constructor(){super(...arguments),this.key=r}render(t,e){return this.key=t,e}update(t,[e,m]){return e!==this.key&&(o(t),this.key=e),m}});export{u as a};

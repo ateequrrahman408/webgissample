@@ -1,0 +1,1 @@
+import{a as o}from"./chunk-3ZJMQTV5.js";import{k as s}from"./chunk-PKUM23HV.js";function n(e){return o(e)||s(e)}function c(e,t,i,...r){return o(e)?t.apply(void 0,r):e.isWebMercator?i.apply(void 0,r):null}export{n as a,c as b};

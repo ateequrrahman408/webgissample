@@ -1,0 +1,1 @@
+import{b as r}from"./chunk-FK2JMIGY.js";var u={getObjectId:t=>t.objectId,getAttributes:t=>t.attributes,getAttribute:(t,e)=>t.attributes[e],cloneWithGeometry:(t,e,i)=>new r(e,t.attributes,null,t.objectId),getGeometry:t=>t.geometry,getCentroid:(t,e)=>t.ensureCentroid(e)};export{u as a};
