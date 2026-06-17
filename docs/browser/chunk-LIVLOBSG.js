@@ -1,1 +1,0 @@
-import{B as n,D as o,h as a,l as t}from"./chunk-LQ5B7N2H.js";var m={validationContainer:"validation-container"},d=()=>{},$=({scale:e,status:s,id:r,icon:l,message:c,ref:i})=>a`<div class=${o(m.validationContainer)} ${n(i||d)}><calcite-input-message aria-live=polite .icon=${l} id=${r??t} .scale=${e} .status=${s}>${c}</calcite-input-message></div>`;export{$ as a};

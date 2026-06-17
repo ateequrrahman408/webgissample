@@ -1,1 +1,0 @@
-import{sa as o}from"./chunk-QTMNHPSZ.js";import{a as r,b as a}from"./chunk-7CGTOI24.js";async function n(s,e){return(await o(s,{responseType:"json",query:a(r({f:"json"},e?.customParameters),{token:e?.apiKey})})).data}export{n as a};

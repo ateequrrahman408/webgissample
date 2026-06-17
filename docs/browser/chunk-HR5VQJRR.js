@@ -1,1 +1,0 @@
-import{g as p}from"./chunk-A7SSY5O7.js";import{P as o,Q as s}from"./chunk-KBLWEZWN.js";import{a as e}from"./chunk-WNSZCIFR.js";var r,t=r=class extends p{constructor(a){super(a),this.type="selection"}clone(){return new r}};e([o({type:["selection"],readOnly:!0,json:{write:!0}})],t.prototype,"type",void 0),t=r=e([s("esri.layers.support.FeatureReductionSelection")],t);export{t as a};

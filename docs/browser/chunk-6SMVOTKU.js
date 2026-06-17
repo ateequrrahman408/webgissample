@@ -1,1 +1,0 @@
-import{a as s}from"./chunk-35S4M4QT.js";import"./chunk-7RF35FAF.js";import"./chunk-7CGTOI24.js";var t=class extends s{constructor(){super(...arguments),this.bindParams=[],this.enterOC_Parameter=r=>{this.bindParams.push(r.getText())}}};export{t as default};

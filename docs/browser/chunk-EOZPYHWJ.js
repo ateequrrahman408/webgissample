@@ -1,1 +1,0 @@
-import{O as t}from"./chunk-LP5SEOGQ.js";function o(r,a=!1){return r<=t?a?new Array(r).fill(0):new Array(r):new Float32Array(r)}function A(r){return(Array.isArray(r)?r.length:r.byteLength/8)<=t?Array.from(r):new Float32Array(r)}function i(r,a,e){return Array.isArray(r)?r.slice(a,a+e):r.subarray(a,a+e)}export{o as a,A as b,i as c};

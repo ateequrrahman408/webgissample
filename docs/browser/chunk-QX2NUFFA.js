@@ -1,1 +1,0 @@
-import{a as r,b as i,c as m}from"./chunk-QL67RWPG.js";import{a as o}from"./chunk-R5JSRCMH.js";import{D as t}from"./chunk-LQ5B7N2H.js";var p=({children:e,class:n,hidden:c=!1,key:f,level:a})=>{let s=a?r(`h${a}`):i`div`;return o(f,m`<${s} class=${t(n)} .hidden=${c}>${e}</${s}>`)};export{p as a};

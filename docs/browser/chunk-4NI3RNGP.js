@@ -1,1 +1,0 @@
-import{a as i}from"./chunk-U7WMSMMK.js";import{B as n}from"./chunk-UKUMWGIE.js";var s=class e extends i{constructor(t,o,r=3){super(o,r),this.intersectionPoint=t}equals(t){return t instanceof e&&n(this.intersectionPoint,t.intersectionPoint)}};export{s as a};
