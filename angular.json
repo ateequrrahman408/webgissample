@@ -25,7 +25,8 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+                "https://js.arcgis.com/4.29/esri/themes/light/main.css"
             ]
           },
           "configurations": {

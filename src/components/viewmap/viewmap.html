@@ -1,0 +1,36 @@
+
+<div id="map"></div>
+<div class="edit-panel" *ngIf="isPanelOpen">
+  <div class="panel-header">
+    <h3>Update Masjid Details</h3>
+    <button class="close-btn" (click)="closePanel()">X</button>
+  </div>
+  
+  <form (ngSubmit)="submitForm()">
+    <div class="form-group">
+      <label>Object ID (Read-only):</label>
+      <input type="text" [value]="selectedMasjidId" disabled class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label>Masjid Name:</label>
+      <input type="text" [(ngModel)]="selectedMasjidName" name="masjidName" class="form-control" required />
+        
+    </div>
+    <div class="form-group">
+      <label>OSM ID:</label>
+      <input type="number" [(ngModel)]="selectedOsmId" name="osmId" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label>Amenity:</label>
+      <input type="text" [(ngModel)]="selectedAmenity" name="amenity" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label>Religion:</label>
+      <input type="text" [(ngModel)]="selectedReligion" name="religion" class="form-control" />
+    </div>
+
+    <button type="submit" class="submit-btn">Save to Database</button>
+  </form>
+</div>
+
