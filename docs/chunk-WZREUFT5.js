@@ -1,0 +1,1 @@
+import{a as r}from"./chunk-ZMBCTCSM.js";function t(o,e){e.hasVertexColors?(o.attributes.add("color","vec4"),o.varyings.add("vColor","vec4"),o.vertex.code.add(r`void forwardVertexColor() { vColor = color; }`)):o.vertex.code.add(r`void forwardVertexColor() {}`)}export{t as a};

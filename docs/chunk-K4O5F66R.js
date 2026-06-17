@@ -1,0 +1,1 @@
+import{y as a}from"./chunk-6736JRQ2.js";function r(i){return i[i.openProp||"open"]}async function f(i){await i.updateComplete,r(i)?i.onBeforeOpen():i.onBeforeClose(),await i.updateComplete;let e=s(i)?i.transitionRef.value:i.transitionEl;e&&await a(e,i.transitionProp),r(i)?i.onOpen():i.onClose()}function s(i){return!!i.transitionRef}export{f as a};

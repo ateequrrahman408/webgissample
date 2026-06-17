@@ -1,0 +1,1 @@
+function o(l){let{attributes:e,sourceLayer:t}=l;if(!e||!t)return"";let n="displayField"in t?t.displayField:null,i=n!=null?e[n]:null,r=i!=null?i.toString():null,u=l.getObjectId()?.toString();return r||u||""}export{o as a};
